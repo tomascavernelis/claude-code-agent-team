@@ -1,0 +1,19 @@
+{
+  "accounts": [
+    {"id": "account-a", "network": "facebook", "reels_per_day": 3, "slots": ["10:30", "14:00", "19:30"]},
+    {"id": "account-b", "network": "instagram", "reels_per_day": 2, "slots": ["12:00", "20:00"]}
+  ],
+  "rules": {
+    "min_minutes_between_posts": 45,
+    "no_posts_after": "21:30",
+    "same_asset_on_two_accounts_same_day": false
+  },
+  "daily_round": [
+    {"time": "10:00", "agent": "analyst", "task": "metrics at 24h, winners and losers"},
+    {"time": "10:20", "agent": "researcher", "task": "competitor outliers worth adapting"},
+    {"time": "10:30", "agent": "producer", "task": "variations of yesterday's winners"},
+    {"time": "11:10", "agent": "guardian", "task": "review the queue, record QA approval"},
+    {"time": "11:40", "agent": "publisher", "task": "schedule (blocked until QA + human approvals)"},
+    {"time": "20:30", "agent": "finance", "task": "cost and ROI of the day"}
+  ]
+}

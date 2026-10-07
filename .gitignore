@@ -1,0 +1,6 @@
+.env
+*.key
+approvals/*.json
+office/status.json
+__pycache__/
+.claude/settings.local.json

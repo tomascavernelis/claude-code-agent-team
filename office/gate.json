@@ -1,0 +1,8 @@
+{
+  "_comment": "Tools matching any of these regexes are blocked unless today's queue has BOTH approvals (QA + human).",
+  "guarded_tool_patterns": [
+    "^mcp__metricool__(createScheduledPost|updateScheduledPost|createScheduledPostForReview|sendScheduledPostForReview)$",
+    "^mcp__.*__(publish|send|post)[A-Za-z_]*$"
+  ],
+  "required_approvals": ["qa", "human"]
+}

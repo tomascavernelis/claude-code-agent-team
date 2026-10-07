@@ -1,0 +1,12 @@
+{
+  "_comment": "SYNTHETIC example data, only to show the format.",
+  "account": "account-a",
+  "variable": "hook",
+  "control": "A",
+  "test": "B",
+  "values": {"A": "statement hook", "B": "question hook"},
+  "posts": [
+    {"arm": "A", "views": 4100}, {"arm": "A", "views": 5200}, {"arm": "A", "views": 3900}, {"arm": "A", "views": 4600},
+    {"arm": "B", "views": 6800}, {"arm": "B", "views": 5900}, {"arm": "B", "views": 7400}, {"arm": "B", "views": 6100}
+  ]
+}
