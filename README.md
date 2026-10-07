@@ -68,7 +68,7 @@ Details and rationale: [docs/EXPERIMENT-LADDER.md](docs/EXPERIMENT-LADDER.md). T
 Requirements: [Claude Code](https://claude.com/claude-code), Python 3.9+.
 
 ```bash
-git clone <this repo> && cd claude-code-agent-team
+git clone https://github.com/tomascavernelis/claude-code-agent-team && cd claude-code-agent-team
 python3 -m unittest discover -s tests -v      # 11 tests: approval gate + test ladder
 
 claude                                        # open Claude Code in this folder
